@@ -30,6 +30,17 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import python from "./tech/python.png";
+import tensorflow from "./tech/tensorflow.png";
+import pytorch from "./tech/pytorch.png";
+
+import aws from "./tech/aws.png";
+import azure from "./tech/azure.png";
+import terraform from "./tech/terraform.png";
+
+import sql from "./tech/sql.png";
+import psql from "./tech/psql.png";
+
 export {
   logo,
   backend,
@@ -59,4 +70,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  tensorflow,
+  pytorch,
+  aws,
+  azure,
+  terraform,
+  sql,
+  psql,
 };

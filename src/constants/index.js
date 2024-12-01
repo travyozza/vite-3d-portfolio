@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  tensorflow,
+  pytorch,
+  aws,
+  azure,
+  terraform,
+  sql,
+  psql,
 } from "../assets";
 
 export const navLinks = [
@@ -61,6 +69,18 @@ const services = [
 
 const technologies = [
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -69,48 +89,48 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  },
+  {
+    name: "psql",
+    icon: psql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "azure",
+    icon: azure,
+  },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "terraform",
+    icon: terraform,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
